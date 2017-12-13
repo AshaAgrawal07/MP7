@@ -1,13 +1,13 @@
-package Concentric;
+package MP7;
 
 import java.awt.*;  
 import javax.swing.JFrame; 
 //import java.util.Scanner;
 import java.awt.Color;
-public class Concentric extends Canvas{
-	private static int x = 400; 
-	private static int y = 450; 
-	private static int radius = 1350; 
+public class Cone extends Canvas{
+	private static int x = 100; 
+	private static int y = 100; 
+	private static int radius = 600; 
 	private static int n = 200; 
 
 
@@ -50,10 +50,10 @@ public class Concentric extends Canvas{
 //		System.out.println("What should the initial radius be?");
 //		radius = in.nextInt();
 		
-		Concentric m=new Concentric();  
+		Cone m=new Cone();  
         JFrame f=new JFrame();  
         f.add(m);  
-        f.setSize(2000,2000);    
+        f.setSize(1200,1200);    
         f.setVisible(true); 
 	}
 	
